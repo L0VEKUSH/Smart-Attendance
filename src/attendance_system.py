@@ -17,9 +17,9 @@ from tensorflow.keras.models import load_model
 # Configuration — edit here if needed
 # ─────────────────────────────────────────────
 WINDOW_START_H  = 9
-WINDOW_START_M  = 0
-WINDOW_END_H    = 17
-WINDOW_END_M    = 0
+WINDOW_START_M  = 30
+WINDOW_END_H    = 10
+WINDOW_END_M    =00
 
 # LBPH confidence threshold: lower distance = better match.
 # Increase to be more lenient (more false positives),
